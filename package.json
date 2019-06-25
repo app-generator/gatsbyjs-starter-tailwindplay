@@ -1,0 +1,59 @@
+{
+  "name": "@oddstronaut/gatsby-starter-tailwind",
+  "description": "Gatsby starter styled with Tailwind",
+  "version": "3.0.25",
+  "author": "Taylor Bryant <taylor@bryant.io>",
+  "dependencies": {
+    "gatsby": "2.10.4",
+    "gatsby-plugin-manifest": "2.2.0",
+    "gatsby-plugin-postcss": "2.1.0",
+    "gatsby-plugin-purgecss": "4.0.0",
+    "gatsby-plugin-react-helmet": "3.1.0",
+    "graphql": "14.3.1",
+    "prop-types": "15.7.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-helmet": "5.2.1"
+  },
+  "keywords": [
+    "gatsby",
+    "tailwind",
+    "tailwindcss",
+    "purgecss"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "analyze:lint": "eslint --ext .jsx --ext .js .",
+    "analyze:prettier": "prettier --list-different '**/*.{js,css,md,json}'",
+    "analyze": "npm run analyze:lint && npm run analyze:prettier",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "fix:lint": "eslint --ext .jsx --ext .js . --fix",
+    "fix:prettier": "prettier --write '**/*.{js,css,md,json}'",
+    "fix": "npm run fix:lint && npm run fix:prettier",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.2",
+    "eslint": "6.0.0",
+    "eslint-config-react-app": "4.0.1",
+    "eslint-plugin-flowtype": "3.11.1",
+    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-react": "7.14.1",
+    "prettier": "1.18.2",
+    "tailwindcss": "1.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oddstronaut/gatsby-starter-tailwind"
+  },
+  "bugs": {
+    "url": "https://github.com/oddstronaut/gatsby-starter-tailwind/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
