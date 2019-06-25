@@ -1,22 +1,12 @@
-# Gatsby Starter Tailwind
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
+# Gatsby Starter TailwindPlay
 
 <div align="center">
-  <img src="https://image.ibb.co/cJjPN7/gatsby_tailwind.png" alt="Gatsby and Tailwind CSS logos">
+  <img src="https://raw.githubusercontent.com/app-generator/static/master/gatsbyjs-starter-tailwindplay/gatsbyjs-starter-tailwindplay-intro.gif" alt="Gatsby and Tailwind CSS logos">
 </div>
 
-<div align="center">
-  <strong>A <a href="https://www.gatsbyjs.org/">Gatsby</a> starter styled using <a href="https://tailwindcss.com/">Tailwind</a>, a utility-first CSS framework.</strong><br />
-  Uses <a href="https://www.purgecss.com/">Purgecss</a> to remove unused CSS.<br />
-  Illustrations by <a href="https://undraw.co/">unDraw</a>.
-  <br />
-  <br />
-</div>
-  
-![alt text](https://image.ibb.co/jv6FC7/gatsby_starter_tailwind.png "Screenshot of Gatsby Starter Tailwind homepage")
-  
-<p align="center">View demo <a href="https://quizzical-mcclintock-0226ac.netlify.com/">here</a>.</p>
+## Product Info
+
+
 
 ## What is Tailwind?
 >"Tailwind is a utility-first CSS framework for rapidly building custom user interfaces."
@@ -34,7 +24,7 @@ npm i --global gatsby-cli
 
 Create new Gatsby project using this starter:
 ```sh
-gatsby new my-new-website https://github.com/oddstronaut/gatsby-starter-tailwind
+gatsby new my-new-website https://github.com/app-generator/gatsbyjs-starter-tailwindplay
 ```
 
 Build stylesheet from Tailwind config and run the project in development mode:
@@ -63,19 +53,13 @@ Use `npm run build` to build your site for production.
 ## License
 [MIT](https://github.com/oddstronaut/gatsby-starter-tailwind/blob/master/LICENSE.md)
 
-## How you can help
-Enjoying Gatsby Starter Tailwind and want to help? You can:
-* [Create an issue](https://github.com/oddstronaut/gatsby-starter-tailwind/issues/new) with some constructive criticism
-* [Submit a pull request](https://github.com/oddstronaut/gatsby-starter-tailwind/compare) with some improvements to the project
+## Credits
+* [The original starter](https://github.com/Oddstronaut/gatsby-starter-tailwind)
+* [The design](https://www.tailwindtoolbox.com/templates/landing-page)
+* Images - [undraw.co](https://undraw.co/)
 
-## Contributors
+## Support
+- For issues and features request, use [Github](https://github.com/app-generator/gatsbyjs-starter-tailwindplay/issues/new) or join [AppSeed](https://appseed.us?ref=github-bulmaplay) community on [Discord](https://discord.gg/fZC6hup)   
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table><tr><td align="center"><a href="http://impuls.dev"><img src="https://avatars3.githubusercontent.com/u/8146736?v=4" width="100px;" alt="impulse"/><br /><sub><b>impulse</b></sub></a><br /><a href="https://github.com/Oddstronaut/gatsby-starter-tailwind/commits?author=impulse" title="Code">💻</a></td><td align="center"><a href="https://gandreadis.com"><img src="https://avatars3.githubusercontent.com/u/5272244?v=4" width="100px;" alt="Georgios Andreadis"/><br /><sub><b>Georgios Andreadis</b></sub></a><br /><a href="https://github.com/Oddstronaut/gatsby-starter-tailwind/commits?author=gandreadis" title="Code">💻</a></td><td align="center"><a href="https://github.com/altruisticsoftware"><img src="https://avatars3.githubusercontent.com/u/12105346?v=4" width="100px;" alt="Chris"/><br /><sub><b>Chris</b></sub></a><br /><a href="https://github.com/Oddstronaut/gatsby-starter-tailwind/commits?author=altruisticsoftware" title="Code">💻</a></td><td align="center"><a href="https://github.com/dalwadani"><img src="https://avatars1.githubusercontent.com/u/4618082?v=4" width="100px;" alt="Dhaifallah Alwadani"/><br /><sub><b>Dhaifallah Alwadani</b></sub></a><br /><a href="https://github.com/Oddstronaut/gatsby-starter-tailwind/commits?author=dalwadani" title="Code">💻</a></td><td align="center"><a href="http://nigelball.org"><img src="https://avatars2.githubusercontent.com/u/815408?v=4" width="100px;" alt="Nigel Ball"/><br /><sub><b>Nigel Ball</b></sub></a><br /><a href="#ideas-nigelb135" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/Oddstronaut/gatsby-starter-tailwind/commits?author=nigelb135" title="Code">💻</a></td><td align="center"><a href="https://github.com/monte-hayward"><img src="https://avatars3.githubusercontent.com/u/3780422?v=4" width="100px;" alt="Monte Hayward"/><br /><sub><b>Monte Hayward</b></sub></a><br /><a href="https://github.com/Oddstronaut/gatsby-starter-tailwind/commits?author=monte-hayward" title="Code">💻</a></td></tr></table>
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+---
+Made with ♥ by [AppSeed](https://appseed.us?ref=github)

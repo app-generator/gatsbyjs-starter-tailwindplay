@@ -12,7 +12,8 @@ function Layout({ children }) {
           site {
             siteMetadata {
               title,
-              github
+              github,
+              blog
             }
           }
         }
@@ -54,7 +55,7 @@ function Layout({ children }) {
                   </ul>
                   <form action={data.site.siteMetadata.github}>
                     <button type="submit" id="navAction" 
-                            className="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 gradient text-white">Action</button>
+                            className="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 gradient text-white">Get Sources</button>
                   </form>
 
                 </div>
@@ -109,15 +110,15 @@ function Layout({ children }) {
             {/* Alternate features */}
             <section className="bg-white border-b py-8">
               <div className="container max-w-5xl mx-auto m-8">
-                <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Title</h1>
+                <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">{data.site.siteMetadata.title}</h2>
                 <div className="w-full mb-4">	
                   <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
                 </div>
               
                 <div className="flex flex-wrap">
                   <div className="w-5/6 sm:w-1/2 p-6">
-                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-                    <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
+                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Built in GatsbyJS</h3>
+                    <p className="text-gray-600 mb-8">Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps.<br /><br />
                     
                     Images from: <a className="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
                     
@@ -219,8 +220,8 @@ function Layout({ children }) {
                   </div>
                   <div className="w-full sm:w-1/2 p-6 mt-6">
                     <div className="align-middle">
-                      <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-                      <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
+                      <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Styled with Tailwind CSS</h3>
+                      <p className="text-gray-600 mb-8">Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.<br /><br />
                       Images from: <a className="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
                     </div>
                   </div>
@@ -234,18 +235,18 @@ function Layout({ children }) {
               
               <div className="container mx-auto flex flex-wrap pt-4 pb-12">
               
-                <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Title</h1>
+                <h3 className="w-full my-2 text-3xl font-bold leading-tight text-center text-gray-800">Text Cards</h3>
                 <div className="w-full mb-4">	
                   <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
                 </div>
               
                 <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                   <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                    <a href="#" className="flex flex-wrap no-underline hover:no-underline">
-                      <p className="w-full text-gray-600 text-xs md:text-sm px-6">xGETTING STARTED</p>
-                      <div className="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
+                    <a href="https://www.gatsbyjs.org/" className="flex flex-wrap no-underline hover:no-underline">
+                      <p className="w-full text-gray-600 text-xs md:text-sm px-6">Blazing Fast</p>
+                      <div className="w-full font-bold text-xl text-gray-800 px-6">Static Progressive Web App</div>
                       <p className="text-gray-800 text-base px-6 mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. 
+                        Why Gatsby? Gatsby is a static PWA (Progressive Web App) generator. Gatsby loads only the critical HTML, CSS, data, and JavaScript so your site loads as fast as possible. 
                       </p>
                     </a>
                   </div>
@@ -260,11 +261,11 @@ function Layout({ children }) {
                 
                 <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                   <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                    <a href="#" className="flex flex-wrap no-underline hover:no-underline">
-                      <p className="w-full text-gray-600 text-xs md:text-sm px-6">xGETTING STARTED</p>
-                      <div className="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
+                    <a href="https://tailwindcss.com/" className="flex flex-wrap no-underline hover:no-underline">
+                      <p className="w-full text-gray-600 text-xs md:text-sm px-6">Tailwind is different</p>
+                      <div className="w-full font-bold text-xl text-gray-800 px-6">State-of-the-art CSS Framework</div>
                       <p className="text-gray-800 text-base px-6 mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. 
+                        Instead of opinionated predesigned components, Tailwind provides low-level utility classes that let you build completely custom designs without ever leaving your HTML.
                       </p>
                     </a>
                   </div>
@@ -280,10 +281,10 @@ function Layout({ children }) {
                 <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
                   <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
                     <a href="#" className="flex flex-wrap no-underline hover:no-underline">
-                      <p className="w-full text-gray-600 text-xs md:text-sm px-6">xGETTING STARTED</p>
-                      <div className="w-full font-bold text-xl text-gray-800 px-6">Lorem ipsum dolor sit amet.</div>
+                      <p className="w-full text-gray-600 text-xs md:text-sm px-6">Open-Source</p>
+                      <div className="w-full font-bold text-xl text-gray-800 px-6">Coded by <a href="https://twitter.com/Sm0keDev">Sm0ke</a> </div>
                       <p className="text-gray-800 text-base px-6 mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. 
+                        The source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose.
                       </p>
                     </a>
                   </div>
@@ -396,10 +397,13 @@ function Layout({ children }) {
                 <div className="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
               </div>
 
-              <h3 className="my-4 text-3xl leading-tight">Main Hero Message to sell yourself!</h3>	
+              <h3 className="my-4 text-3xl leading-tight">Read more about GatsbyJS</h3>	
 
-              <button className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action!</button>
-                
+              <form action={data.site.siteMetadata.blog}>
+                <button type="submit"
+                        className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action!</button>
+              </form>
+
             </section>
 
             {/* Footer */}
