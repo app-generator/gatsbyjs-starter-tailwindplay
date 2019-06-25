@@ -42,7 +42,7 @@ Use `npm run build` to build your site for production.
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/oddstronaut/gatsby-starter-tailwind)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/app-generator/gatsbyjs-starter-tailwindplay)
 
 ## Resources
 * [Gatsby documentation](https://www.gatsbyjs.org/docs/)
@@ -51,7 +51,7 @@ Use `npm run build` to build your site for production.
 * [ESLint documentation](https://eslint.org/docs/user-guide/configuring)
 
 ## License
-[MIT](https://github.com/oddstronaut/gatsby-starter-tailwind/blob/master/LICENSE.md)
+ **MIT**
 
 ## Credits
 * [The original starter](https://github.com/Oddstronaut/gatsby-starter-tailwind)

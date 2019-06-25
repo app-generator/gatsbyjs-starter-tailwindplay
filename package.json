@@ -4,6 +4,7 @@
   "version": "3.0.25",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
+    "ftp-deploy": "^2.3.3",
     "gatsby": "2.10.4",
     "gatsby-plugin-manifest": "2.2.0",
     "gatsby-plugin-postcss": "2.1.0",
@@ -26,7 +27,8 @@
     "analyze:lint": "eslint --ext .jsx --ext .js .",
     "analyze:prettier": "prettier --list-different '**/*.{js,css,md,json}'",
     "analyze": "npm run analyze:lint && npm run analyze:prettier",
-    "build": "gatsby build",
+    "build": "yarn run clean && gatsby build",
+    "deploy": "gatsby build --prefix-paths && node deploy",
     "develop": "gatsby develop",
     "fix:lint": "eslint --ext .jsx --ext .js . --fix",
     "fix:prettier": "prettier --write '**/*.{js,css,md,json}'",
